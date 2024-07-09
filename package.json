@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-config-postcss",
-  "version": "0.0.3",
+  "name": "@lttr/nuxt-config-postcss",
+  "version": "0.0.4",
   "description": "Custom postcss config for Nuxt",
   "keywords": [
     "nuxt"
