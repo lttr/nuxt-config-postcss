@@ -14,7 +14,7 @@ main {
   color: white;
 }
 
-@media (--sm-n-above) {
+@media (--sm) {
   main {
     background: rebeccapurple;
   }

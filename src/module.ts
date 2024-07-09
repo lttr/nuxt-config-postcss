@@ -38,11 +38,11 @@ function postcssConfig(files: string[]) {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: "postcss-config",
-    configKey: "postcssConfig",
+    name: "nuxt-config-postcss",
+    configKey: "lttrConfigPostcss",
   },
   defaults: {
-    filesWithGlobals: ["./node_modules/open-props/media.min.css"],
+    filesWithGlobals: [],
   },
   setup(options, nuxt) {
     nuxt.options.postcss = postcssConfig(options.filesWithGlobals)
