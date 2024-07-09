@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.8
+
+[compare changes](https://github.com/lttr/nuxt-config-postcss/compare/v0.0.7...v0.0.8)
+
+### 🏡 Chore
+
+- **docs:** Update readme ([209aa4f](https://github.com/lttr/nuxt-config-postcss/commit/209aa4f))
+
+### ❤️ Contributors
+
+- Lukas Trumm <lukas.trumm@gmail.com>
+
 ## v0.0.7
 
 [compare changes](https://github.com/lttr/nuxt-config-postcss/compare/v0.0.6...v0.0.7)
