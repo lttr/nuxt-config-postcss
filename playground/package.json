@@ -1,5 +1,5 @@
 {
-  "name": "my-module-playground",
+  "name": "nuxt-postcss-config-playground",
   "private": true,
   "type": "module",
   "scripts": {
