@@ -1,6 +1,6 @@
 <template>
   <main>
-    This text has green background unless <code>vw &lt; 480</code>. If the
+    This text has purple background unless <code>vw &lt; 480</code>. If the
     background color responds to the viewport width, the postcss transform
     works.
   </main>
@@ -14,7 +14,7 @@ main {
   color: white;
 }
 
-@media (--sm) {
+@media (--sm-n-above) {
   main {
     background: rebeccapurple;
   }

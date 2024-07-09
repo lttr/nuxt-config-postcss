@@ -38,6 +38,7 @@
     "@csstools/postcss-global-data": "^2.1.1",
     "@nuxt/kit": "^3.12.3",
     "cssnano": "^7.0.4",
+    "open-props": "^1.7.5",
     "postcss": "^8.4.39",
     "postcss-combine-duplicated-selectors": "^10.0.3",
     "postcss-dark-theme-class": "^1.3.0",

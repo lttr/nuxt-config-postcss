@@ -42,7 +42,7 @@ export default defineNuxtModule<ModuleOptions>({
     configKey: "postcssConfig",
   },
   defaults: {
-    filesWithGlobals: [],
+    filesWithGlobals: ["./node_modules/open-props/media.min.css"],
   },
   setup(options, nuxt) {
     nuxt.options.postcss = postcssConfig(options.filesWithGlobals)
