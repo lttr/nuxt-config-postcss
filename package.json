@@ -1,6 +1,6 @@
 {
   "name": "@lttr/nuxt-config-postcss",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Custom postcss config for Nuxt",
   "keywords": [
     "nuxt"
@@ -29,7 +29,7 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "prepack": "nuxt-module-build build",
-    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish --access public && git push --follow-tags",
     "test": "vitest run --pass-with-no-tests",
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit",
     "test:watch": "vitest watch"
