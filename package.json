@@ -1,11 +1,14 @@
 {
   "name": "nuxt-config-postcss",
-  "version": "1.0.0",
-  "description": "My new Nuxt module",
+  "version": "0.0.1",
+  "description": "Custom postcss config for Nuxt",
+  "keywords": [
+    "nuxt"
+  ],
+  "repository": "github:lttr/nuxt-config-postcss",
   "license": "MIT",
-  "repository": "your-org/my-module",
+  "author": "Lukas Trumm",
   "type": "module",
-  "main": "./dist/module.cjs",
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
@@ -13,6 +16,8 @@
       "require": "./dist/module.cjs"
     }
   },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
   "files": [
     "dist"
   ],
@@ -29,8 +34,6 @@
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit",
     "test:watch": "vitest watch"
   },
-  "packageManager": "pnpm@9.5.0+sha256.dbdf5961c32909fb030595a9daa1dae720162e658609a8f92f2fa99835510ca5",
-  "types": "./dist/types.d.ts",
   "dependencies": {
     "@csstools/postcss-global-data": "^2.1.1",
     "@nuxt/kit": "^3.12.3",
@@ -55,5 +58,6 @@
     "typescript": "latest",
     "vitest": "^1.6.0",
     "vue-tsc": "^2.0.24"
-  }
+  },
+  "packageManager": "pnpm@9.5.0+sha256.dbdf5961c32909fb030595a9daa1dae720162e658609a8f92f2fa99835510ca5"
 }
